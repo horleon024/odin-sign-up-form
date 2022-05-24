@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign up form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="left-container">
+		<div class="logo-container">
+			<img src="odin-lined.png" alt="logo">
+			<div class="logo-text">ODIN</div>
+		</div>
+	</div>
+	<div class="right-container">
+		<p class="text first">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+		<p class="text">You know you want to.</p>
+		<form action="" method="post">
+			<div class="form-line">
+				<div class="form-element">
+					<label for="firstname">First Name</label>
+					<input type="text" name="firstname" id="firstname" required>
+				</div>
+				<div class="form-element">
+					<label for="lastname">Last Name</label>
+					<input type="text" name="lastname" id="lastname" required>
+				</div>
+			</div>
+			<div class="form-line">
+				<div class="form-element">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email">
+				</div>
+				<div class="form-element">
+					<label>Phone Number</label>
+					<input type="tel" name="tel" id="tel">
+				</div>
+			</div>
+			<div class="form-line">
+				<div class="form-element">
+					<label for="password">Password</label>
+					<input type="password" name="password" id="password">
+				</div>
+				<div class="form-element">
+					<label for="confirm">Confirm Password</label>
+					<input type="password" name="confirm" id="confirm">
+				</div>
+			</div>
+			<hr>
+			<div class="form-line">
+				<input type="button" value="Create Account">
+			</div>
+			<div class="form-line">Already have an account? <a href="#">Log in</a></div>
+		</form>
+	</div>
+</body>
+</html>
